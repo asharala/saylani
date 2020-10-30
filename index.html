@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Welfare Trust</title>
+    <link  href="style.css"rel="stylesheet"style type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        * {box-sizing: border-box;}
+        
+        body { 
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #navbar {
+          overflow: hidden;
+          background-color: #f1f1f1;
+          padding: 30px 10px;
+          transition: 0.4s;
+          position: fixed;
+          width: 100%;
+          top: 0;
+          z-index: 99;
+        }
+        
+        #navbar a {
+          float: left;
+          color: black;
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 12px; 
+          line-height: 25px;
+          border-radius: 20px;
+        }
+        
+        #navbar #logo {
+          font-size: 35px;
+          font-weight: bold;
+          transition: 0.4s;
+        }
+        
+        #navbar a:hover {
+          background-color:rgb(96, 103, 245);
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: rgb(96, 103, 245);
+          color: white;
+        }
+        
+        #navbar-right {
+          float: right;
+        }
+        
+        @media screen and (max-width: 580px) {
+          #navbar {
+            padding: 10px 10px !important;
+          }
+          #navbar a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          #navbar-right {
+            float: none;
+          }
+        }
+        
+        </style>
+
+
+
+</head>
+<body>
+    <table class="tab1">
+        <tbody><tr>
+            <td class="social" width="30%" align="center">
+                <a href=""><img class="fb" src="./ICON IMAGES/facebook.png" alt="facebook" width="5%"></a>
+                <a href="">
+                    <img class="fb" src="./ICON IMAGES/twitter.png" alt="twitter" width="5%"></a>
+                    <a href="">
+                <img class="fb" src="./ICON IMAGES/instagram.png" alt="instagram" width="5%"></a>
+                <a href="">
+                <img class="fb" src="./ICON IMAGES/youtube.png" alt="youtube" width="5%"></a>
+                <a href="">
+                <img class="fb" src="./ICON IMAGES/whatsapp.png" alt="whatsapp" width="5%"></a>
+            </td>
+            <td style="width: 50%;" align="center">Millions of people's life has changed, millions more awaiting your donation</td>
+            <td align="center">
+                <button>UK Donor</button>
+                <button>Donate Now</button>
+                <button>SMIT Results</button>
+            </td>
+        </tr>
+    </tbody></table>
+
+
+    
+
+   
+  </div>
+    <div id="navbar">
+        <img width="20%" src="./MAIN IMAGES/Saylani-logo.png" alt="">
+        <!-- <a href="#default" id="logo">CompanyLogo</a> -->
+        <div id="navbar-right">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#Saylani Services ">Saylani Services</a>
+          <a href="#Future Project">Future Project</a>
+          <a href="#Media">Media</a>
+          <a href="#News">News</a>
+          <a href="#Donation">Donation</a>
+          <a href="#"></a>
+               
+        </div>
+    </div><br><hr>
+          <!-- slideshow -->
+          <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+              
+              <img src="./MAIN IMAGES/slider2.png" style="width:100%">
+              <div class="text">Saylani Welfare International Trust</div>
+            </div>
+            
+            <div class="mySlides fade">
+            
+              <img src="./MAIN IMAGES/slider1.png" style="width:100%">
+              <div class="text">Saylani Welfare Trust Health </div>
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="./MAIN IMAGES/images.png" style="width:100%">
+              <div class="text">Saylani Green House School </div>
+            </div>
+    
+    
+            <div class="mySlides fade">
+                
+                <img src="./MAIN IMAGES/RotiBank_Slider.png" style="width:100%">
+                <div class="text">Saylani Roti Bank Food </div>
+              </div>
+              
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 3;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+          
+             <!-- slideshow End -->
+             <div class="row">
+                <p style="margin-top: 15px; background-color: #316DC3; color: rgb(194, 192, 192); ">
+                 <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+                     <font color="#00FF00">(News-1 Dated:15-06-2019)<font color="#FFFFFF">&nbsp;&nbsp;PIAIC Next Phase Admission in Islamabad And Faisalabad" . <a href="&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                     <font color="#00FF00">(News-2 Dated:15-05-2019)<font color="#FFFFFF">&nbsp;&nbsp;Saylani Welfare Announced "Donation Application" . <a href="&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                     <font color="#00FF00">(News-3 Dated:07-05-2019)<font color="#FFFFFF">&nbsp;&nbsp;Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . <a href="&amp;theater" style="color: blue">More Details</a> &nbsp;&nbsp;
+                     <font color="#00FF00">(News-4 Dated:08-03-2019)<font color="#FFFFFF">&nbsp;&nbsp;Saylani Welfare Distributing Ration &amp; Clothes to affected people of Balochistan. <a href="" style="color: blue">More Details</a> &nbsp;&nbsp;
+                     <font color="#00FF00">(News-5 Dated:25-02-2019)<font color="#FFFFFF">&nbsp;&nbsp;PIAIC Entrance Exam Merit Ranking List Announced. <a href="&amp;theater>" style="color: blue">More Details</a>&nbsp;&nbsp;
+                     <font color="#00FF00">(News-6 Dated:23-02-2019)<font color="#FFFFFF">&nbsp;&nbsp;President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="" style="color: blue">More Details</a> &nbsp;&nbsp;                    
+                     <font color="#00FF00">(News-7 Dated:19-02-2019)<font color="#FFFFFF">&nbsp;&nbsp;Dr Jamil Ahmed (Additional Inspector General of Police) &amp; Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. <a href="" style="color: blue">More Details</a> &nbsp;&nbsp;     
+                 </font></font></font></font></font></font></font></font></font></font></font></font></font></font></marquee>
+             </div></p>
+             <center>
+             <div class="container-fluid mt-1 bg-light">
+                 <div class="container text-center pt-4 px-5">
+                   <h2 style="font-family: 'Merriweather', serif; font-weight: 700;">
+                     <span class="text-primary">INTRO</span><span class="text-success">DUCTION</span>
+                     <br>
+         
+                     <span><b> ______</b></span>
+         
+                     <img src="ICON IMAGES/favicon.png" alt="favicon">
+                     <span><b> ______</b></span>
+                     
+                   </h2>
+            
+                    <p class="mt-3 px-5 pb-5" style="
+                        text-align: justify;
+                        visibility: visible;
+                        font-size: 14px;
+                        color: #666666;
+                      ">
+                      Established in May 1999 by famous spiritual and religious scholar
+                      Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was
+                      built on the fundamentals of breaking the cycle of poverty,
+                      alleviating the financial troubles of the poor, giving people a chance
+                      to live a dignified life and spreading happiness.
+                      <br>
+                      <br>
+                      We are an organization that believes in lighting up the lives of
+                      underprivileged people across the world. We endeavor to provide the
+                      best quality services in areas including food, education, medical and
+                      social welfare free of cost to people living in the dark. With over 60
+                      different sectors, we feed thousands of hungry people each day,
+                      hundreds more are given the hope of life through medical health care,
+                      many are educated to become leaders of tomorrow and several are given
+                      the opportunity to stand on their feet financially.
+                      <br>
+                      <br>
+                      Today, we are proud to say that our physical presence extends
+                      throughout Pakistan with a vast network of 125 branches operating in
+                      major cities including Karachi, Lahore, Islamabad, Rawalpindi,
+                      Hyderabad and Faisalabad. Apart from Pakistan, we have overseas
+                      offices in the UK, USA and UAE as well. Our worldwide branches are
+                      operating under the guidance of a team of over 2,000 working
+                      professionals who help almost 125,000 people on a daily basis.
+                      <br>
+                      <br>
+                      We strongly believe that a little help goes a long way and our work
+                      would not be possible without the generous support of our valuable
+                      donors. Our local and international donors have graciously lent us a
+                      hand by supporting our causes and enabling us to serve the needs of
+                      people in need.
+                    </p>
+                  </div>
+             
+            <!-- Educatioin count area -->
+            <table class="tab3" align="center">
+              <tbody><tr>
+                <td>
+                 <center> <img src="./WHAT WE ARE DOING IMAGE 1/icon_food_png.png" alt="" width="15%"></center>
+                 <center> <div class="amnt">125,000</div></center>
+                  <div class="dtl"><span><br>DAILY DASTARKHWAN<span style="color: #53C151 ;"><b>(MONTHLY)</b></span></span></div>
+                </td>
+                <td>
+                 <center> <img src="./WHAT WE ARE DOING IMAGE 1/icon_family_png.png" alt="" width="15%"></center>
+                 <center><div class="amnt">7,500</div></center>
+                  <div class="dtl"><span><br>FAMILY ADOPTION <span style="color: #53C151 ;"><b>(MONTHLY)</b></span></span></div>
+                </td>
+                <td>
+                 <center> <img src="./WHAT WE ARE DOING IMAGE 1/icon_medical_png.png" alt="" width="15%"></center>
+                 <center><div class="amnt">43,749</div></center>
+                  <div class="dtl"><span><br>MEDICAL<span style="color: #53C151 ;"><b>(MONTHLY)</b></span></span></div>
+                </td>
+                <td>
+                  <center><img src="./WHAT WE ARE DOING IMAGE 1/icon_education_png.png" alt="" width="15%"></center>
+                  <center><div class="amnt">180,000</div> </center>
+                  <div class="dtl"><span><br>EDUCATION<span style="color: #53C151 ;"><b>(MONTHLY)</b></span></span></div>
+                </td>
+              </tr>
+            </tbody></table>
+          <!-- Educatioin count area End -->
+          
+        <!-- What we are doing -->
+        <div class="container-fluid bg-light">
+          <div class="container text-center py-5">
+            <h2 class="mb-4" style="font-family: 'Merriweather', serif; font-weight: 700;">
+              <span class="text-primary">WHAT WE </span><span class="text-success">ARE DOING ?</span>
+              <br>
+            
+             <span><b> ______</b></span>
+
+              <img src="ICON IMAGES/favicon.png" alt="favicon">
+              <span><b> ______</b></span>
+              
+            </h2>
+           
+              <div class="row">
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/onlinesadqah.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">ONLINE SADQAH</h5></center>
+                  </div>
+                </div>  
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/welfare.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">WELFARE</h5></center>
+                  </div>
+                </div>  
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/medical.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">MEDICAL</h5></center>
+                  </div>
+                </div>     
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/Dastarkhwan.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">Dastarkhwan</h5></center>
+                  </div>
+                </div>  
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/ROPLANT.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">RO PLANT</h5></center>
+                  </div>
+                </div>  
+                <div class="col-md-4 d-flex align-items-stretch" style="height: 180px;">
+                  <div class="card card-body aos-init aos-animate" style="background-color: white;" data-aos="fade-up" data-aos-delay="100">
+                     <center> <a href=""><img src="./WHAT WE ARE DOING IMAGE 2/education.png" width="80px"></a>
+                      <br><br>
+                      <h5 class="text-primary" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold;">EDUCATION</h5></center>
+                  </div>
+                </div>     
+              </div>
+            </div>
+              
+        <!-- What we are doing end -->
+       
+         
+        <!-- MISSION AND UPCOMING PROJECTS -->
+    
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h3 class="font-weight-bold my-5 text-primary">
+                  MISSION AND UPCOMING PROJECTS
+                  <hr style="
+                      width: 80px;
+                      border: 1.5px solid green;
+                      text-align: left;
+                      margin-left: 0;
+                    ">
+                </h3>
+    
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="card bg-light mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-heart fa-2x text-danger pr-3" aria-hidden="true"></i>
+                         <img src="./MISSION AND UPCOMING PROJECTS IMAGE/Hepatitis.png" alt="">
+                        <span class="text-primary font-weight-bold" style="font-size: 15px;">
+                          HEPATITIS
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="card bg-light mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-home fa-2x text-success pr-3" aria-hidden="true"></i>
+                        <img src="./MISSION AND UPCOMING PROJECTS IMAGE/housing.png" alt="">
+                        <span class="text-primary font-weight-bold" style="font-size: 15px;">
+                          HOUSING SOCIETY
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="card bg-light mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-laptop-code fa-2x text-info pr-3" aria-hidden="true"></i>
+                        <img src="./MISSION AND UPCOMING PROJECTS IMAGE/IT.png" alt="">
+                        <span class="text-primary font-weight-bold" style="font-size: 15px;">
+                          IT LITERACY
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="card bg-light mb-4">
+                      <div class="card-body">
+                        <i class="fas fa-mountain fa-2x text-success pr-3" aria-hidden="true"></i>
+                        <img src="./MISSION AND UPCOMING PROJECTS IMAGE/tharparkar.png" alt="">
+                        <span class="text-primary font-weight-bold" style="font-size: 15px;">
+                          THARPARKAR
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="font-weight-bold my-5 text-primary">
+                  Upcoming Events
+    
+                  <hr style="
+                      width: 80px;
+                      border: 1.5px solid green;
+                      text-align: left;
+                      margin-left: 0;
+                    ">
+                </h3>
+                <marquee behavior="scroll" direction="up" height="200" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;">
+                  <p>
+                    Saylani Welfare Distributing Ration &amp; Clothes to affected people
+                    of Balochistan.
+                    <a href="#" class="text-primary"> More Details </a>
+                  </p>
+                  <p>
+                    Entry Test Accouncement (Graphic Designing &amp; Video
+                    Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am
+                    Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice
+                    Bahadurabad. <a href="#" class="text-primary"> More Details </a>
+                  </p>
+    
+                  <p>
+                    Dr Jamil Ahmed (Additional Inspector General of Police) &amp;
+                    Atiqmir Visit Saylani Welfare International Trust, Saylani Mass
+                    I.T. Training.
+                    <a href="#" class="text-primary"> More Details </a>
+                  </p>
+                  <p>
+                    PIAIC Entrance Exam Merit Ranking List Announced.More Details
+                    President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare
+                    International Trust HeadOffice Karachi.
+                    <a href="#" class="text-primary"> More Details </a>
+                  </p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+          <!-- MISSION AND UPCOMING PROJECTS End -->
+         <!-- Image Gallery  -->
+         <div class="container py-5 mb-5">
+          <div class="text-center">
+            <h2 class="mb-4" style="font-family: 'Merriweather', serif; font-weight: 700;">
+              <span class="text-primary">IMAGE</span><span class="text-success"> GALLERY</span>
+              <br>
+              
+             <span><b> ______</b></span>
+
+             <img src="ICON IMAGES/favicon.png" alt="favicon">
+             <span><b> ______</b></span>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 my-4">
+              <div class="text-center">
+                <img src="./IMAGE GALLERY/food.jpg" class="img-thumbnail" alt="food">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 my-4">
+              <div class="text-center">
+                <img src="./IMAGE GALLERY/hazrat.jpg" class="img-thumbnail" alt="food">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 my-4">
+              <div class="text-center">
+                <img src="./IMAGE GALLERY/hazrat2.jpg" class="img-thumbnail" alt="food">
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 my-4">
+              <div class="text-center">
+                <img src="./IMAGE GALLERY/rashan2.jpg" class="img-thumbnail" alt="food">
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Image Gallery End  -->
+         <!-- footer -->
+         <footer>
+         <div class="container-fluid bg-dark text-light">
+          <div class="container py-5" style="font-size: 14px;">
+            <div class="row py-5">
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <p>
+                  Head Office, <br>
+                  A-25, Bahadurabad Chowrangi Karachi, Pakistan
+                </p>
+                <ul class="list-inline mt-4">
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-phone mr-5 text-success" aria-hidden="true"></i>UAN: 111-729-526
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-globe text-success mr-5" aria-hidden="true"></i>(+0092-213)
+                    4130786-90
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-phone text-success mr-5" aria-hidden="true"></i>CELL:
+                    92-311-1729526
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-phone text-success mr-5" aria-hidden="true"></i>USA NO +1(716)941
+                    7792
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-phone text-success mr-5" aria-hidden="true"></i>UK NO (+44)115 970
+                    6256
+                  </li>
+                  <li class="m-0 pl-10 pr-10">
+                    <i class="fa fa-envelope-o text-success mr-5" aria-hidden="true"></i>
+                    info@saylaniwelfare.com
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <h5>Useful Links</h5>
+                <hr style="
+                    width: 80px;
+                    border: 1.5px solid green;
+                    text-align: left;
+                    margin-left: 0;
+                  ">
+              </div>
+    
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <h5 class="widget-title mb-10">Connect With Us</h5>
+                <ul>
+                  <li>
+                    <img width="15px" src="./ICON IMAGES/facebook.png" target="_blank"><i class="fa fa-facebook text-light" aria-hidden="false"></i></a>
+                  </li>
+                  <li>
+                    <img width="15px" src="./ICON IMAGES/twitter.png" target="_blank"><i class="fa fa-twitter text-light" aria-hidden="false"></i></a>
+                  </li>
+                  <li>
+                    <img width="15px" src="./ICON IMAGES/instagram.png"  target="_blank"><i class="fa fa-instagram text-light" aria-hidden="false"></i></a>
+                  </li>
+                  <li>
+                    <img width="15px" src="./ICON IMAGES/youtube.png" target=""><i class="fa fa-youtube text-light" aria-hidden="false"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <footer>
+          <div class="container-fluid bg-blue text-light" style="font-size: 12px;">
+            <div class="container mb-0 pt-3">
+              <div class="row">
+                <div class="col-12">
+                  <p>
+                    Copyrights © 2020 Saylani Welfare
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid bg-dark text-light" style="font-size: 12px;">
+            <div class="container mb-0 pt-3">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <p>
+                    Design Ashar alam Developer 2020.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    <!-- footer End -->
+     
+    
+    </body>
+        
+    
+  
+
+   
+
+       
+
+
+
+    
+</body>
+</html>
